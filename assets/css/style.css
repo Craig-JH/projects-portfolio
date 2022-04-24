@@ -77,29 +77,44 @@ header a {
 }
 
 /* ABOUT ME STYLES START */
-.steps { 
-  text-align: center;
-  background: #fce138;
+.section-title div p {
+  display: inline-block;
+  padding: 0 100px 20px 100px;
+  border-bottom: 3px solid;
+  margin-bottom: 35px;
 }
 
-.steps div {
+.bio { 
+  text-align: center;
+  background: #d2e1f5;
+  
+}
+
+.bio div {
   margin-bottom: 80px;
 }
 
-.steps img {
+.bio img {
   width: 15%;
   margin: 10px 0;
+  float:left
 } 
 
-.steps h3 {
-  color: #ef0c0c;
-  font-size: 46px;
+.bio h2 {
+  color: #1d0551;
+  font-size: 36px;
   margin-top: 10px;
 }
 
-.steps p {
-  color: #39a6b2;
+.bio article p {
+  color: #1d0551;
   font-size: 23px;
+  position: relative;
+  margin: 30px 30px 30px 800px;
+  text-align: justify;
+  
+   
+
 }
 /* WHAT YOU DO STYLES END */
 
