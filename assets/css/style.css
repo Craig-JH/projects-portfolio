@@ -17,20 +17,21 @@ main {
 .main-header {
   display: flex;
   /* Forces elements to the next line if they don't fit */
+  font-family:Georgia, 'Times New Roman', Times, sans-serif;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 25px 30px;
-  background: #00080f;
-  color: #fff;
-  
+  padding: 10px 30px 15px;
+  background: #73a9d8;
+ 
 }
 
 header h1 {
+  font-size: 40px;
   color:#140ded;
-  background: #d4d8db;
+  background: #6fd5f7;
   box-sizing: border-box;
-  padding: 10px 10px 10px 10px;
-  margin: 10px 10px 10px -1em;
+  padding: 10px 20px 10px 10px;
+  margin: 10px 20px 10px -1em;
 
 }
 
@@ -43,18 +44,36 @@ header nav ul {
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
-  list-style: none;
+  list-style:none;
 }
 
 header nav ul li a {
   margin: 0 30px;
   font-weight: lighter;
-  font-size: 1.55vw;
+  font-size: 24px;
 }
 
 header a {
-  text-decoration: none;
-  color: rgb(250, 8, 8);
+  text-decoration: underline;
+  color: #0a6326;
+}
+
+/* HERO STYLES START */
+.hero {
+  background-image: url('../images/hero-bg.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  height: 200px;
+}
+
+.hero h2 {
+  font-size: 40px;
+  color:#140ded;
+  background: #6fd5f7;
+  box-sizing: border-box;
+  padding: 10px 10px 10px 10px;
+  margin: 30px 100px 30px 800px;
 }
 
 /* ABOUT ME STYLES START */
