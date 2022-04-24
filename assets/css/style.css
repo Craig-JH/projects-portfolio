@@ -19,10 +19,70 @@ main {
   /* Forces elements to the next line if they don't fit */
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 60px;
-  background: #13293d;
+  padding: 25px 30px;
+  background: #00080f;
   color: #fff;
+  
 }
+
+header h1 {
+  color:#140ded;
+  background: #d4d8db;
+  box-sizing: border-box;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px -1em;
+
+}
+
+header nav {
+  margin: 7px 0;
+}
+
+header nav ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+}
+
+header nav ul li a {
+  margin: 0 30px;
+  font-weight: lighter;
+  font-size: 1.55vw;
+}
+
+header a {
+  text-decoration: none;
+  color: rgb(250, 8, 8);
+}
+
+/* ABOUT ME STYLES START */
+.steps { 
+  text-align: center;
+  background: #fce138;
+}
+
+.steps div {
+  margin-bottom: 80px;
+}
+
+.steps img {
+  width: 15%;
+  margin: 10px 0;
+} 
+
+.steps h3 {
+  color: #ef0c0c;
+  font-size: 46px;
+  margin-top: 10px;
+}
+
+.steps p {
+  color: #39a6b2;
+  font-size: 23px;
+}
+/* WHAT YOU DO STYLES END */
 
 .card {
   flex: 1 0 0;
