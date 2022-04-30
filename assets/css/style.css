@@ -95,8 +95,8 @@ header a {
 }
 
 .bio img {
-  width: 15%;
-  margin: 10px 0;
+  width: 17%;
+  padding: 10px 10px 20px 50px;
   float:left
 } 
 
@@ -104,17 +104,22 @@ header a {
   color: #1d0551;
   font-size: 36px;
   margin-top: 10px;
+  text-align: right;
+  padding-right: 1200px;
+  border-right: 3px solid #1d0551;
+  padding: 20px;
+  width: 500px;
+  position: absolute;
+  bottom: 120px;
+  right: 140px;
 }
 
 .bio article p {
   color: #1d0551;
   font-size: 23px;
   position: relative;
-  margin: 30px 30px 30px 800px;
+  margin: 30px 60px 30px 800px;
   text-align: justify;
-  
-   
-
 }
 /* WHAT YOU DO STYLES END */
 

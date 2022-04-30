@@ -4,12 +4,14 @@
     <title>Craig Hyman Portfolio</title>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" type="text/css" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./asset/css/style.css" />
   </head>
 
   <body>
-    <header class="main-header">
+    <!-- Begin Header -->
+    <header>
       <h1>Craig J. Hyman</h1>
+      <!-- Begin Navigation -->
       <nav>
         <ul>
           <li>
@@ -24,39 +26,47 @@
           <li>
             <a href="#resume">Resume</a>
           </li>
-          
         </ul>
       </nav>
+      <!-- End Navigation -->
     </header>
+     <!-- End Header -->
 
     <!-- "hero" start -->
     <section class="hero">
-      <h2>New Beginings</h2>
-    </section>
+      <div class="background-img">
+        <img src="./assets/images/matrix-bg.jpg" alt="hero backgrounf image" />
+      </div>    
+      <div class="catch-phrase">
+        <h2>New Beginings</h2>
+      </div> 
 
     <!-- "about me" start -->
-    <section id="about-me" class="bio">
-      <h2 class="section-title secondary-border">
-        About Me
-      </h2> 
-      <div>
-        <img src="./assets/images/portrait.jpg" alt="portrait picture of Craig J. Hyman" />
-      </div>
-      <article>
-        <p>I am currently a student of the University of North Carolina at Chapel Hill "Coding Bootcamp". 
-           My current profession for the past 20 years is a civil engineer with a focus on traffic engineering.  
-           I earned my Bachelor's of Science in civil engineering from Penn State University. 
-           Prior to that, I was an auto mechanic for Ford Motor Company.  
-           I feel that the problem solving skills I've acquired over the past 30 years has put me in a good position to apply those skill to coding and full-stack web design.</p>
+    <article id="about-me" class="bio">
+      <h2>About <br> Me</h2> 
+      <p>I am currently in the University of North Carolina at Chapel Hill "Coding Bootcamp".
+           The coding bootcamp is an immersive course covering coding and full-stack web design. 
+           For the past 20 years, I have been, and currently am, a licensced Profession Engineer (P.E.) in civil engineering with a discipline focus on traffic engineering.  
+           I earned my Bachelor's of Science in civil engineering from Penn State University in 2003. 
+           Prior to that, I was an automotive technician for the &copy; 2020 Ford Motor Company.  
+           I am confident that the problem solving skills I've acquired over the past 30 years has put me in a good
+           position to apply those skill to coding and full-stack web design.</p>
       </article>
     </section>
+    <!-- Start Main Portfolio -->
+    <main class="projects">
+      <div>
+      <h1>Work</h1>
+      </div>
+    <!-- Start Project 1 -->  
+      <div class="project-1">
+        <img src="./assets/images/run-buddy.png" alt="run-buddy project" />
+        <section class="card">
+        <h2>Run Buddy</h2>
+        <p>HTML, CSS, Responsive Design</p>
+        </section>
+      </div>  
 
-    <main>
-      <section class="card">
-        <header>Camera</header>
-        <img src="./assets/images/camera.jpg" alt="camera" />
-        <p>Price: $300</p>
-      </section>
       <section class="card">
         <header>Tablet</header>
         <img src="./assets/images/tablet.jpg" alt="tablet" />
