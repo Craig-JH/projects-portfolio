@@ -7,32 +7,26 @@ body {
   margin: 0;
 }
 
-main {
+header {
   display: flex;
-  /* Forces elements to the next line if they don't fit */
-  flex-wrap: wrap;
-  margin-top: 2%;
-}
-
-.main-header {
-  display: flex;
-  /* Forces elements to the next line if they don't fit */
-  font-family:Georgia, 'Times New Roman', Times, sans-serif;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 10px 30px 15px;
-  background: #73a9d8;
- 
+  align-items: center;
+  list-style:none;
+  color:#000902;
+  background: #278e18;
+  box-sizing: border-box;
+  padding: 10px 20px 10px 10px;
+  margin: 30px 0 0 -1em;
 }
 
 header h1 {
   font-size: 40px;
-  color:#140ded;
-  background: #6fd5f7;
+  color:#000902;
+  background: #8ef27f;
   box-sizing: border-box;
   padding: 10px 20px 10px 10px;
-  margin: 10px 20px 10px -1em;
-
+  margin: 10px 20px 10px 0;
 }
 
 header nav {
@@ -55,89 +49,24 @@ header nav ul li a {
 
 header a {
   text-decoration: underline;
-  color: #0a6326;
+  color:#000902;
 }
 
 /* HERO STYLES START */
 .hero {
-  background-image: url('../images/hero-bg.jpg');
+  background-image: url('../images/matrix-bg.jpg');
   background-size: cover;
   background-position: center;
-  position: relative;
-  height: 200px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: right;
 }
 
-.hero h2 {
+.catch-phrase h2 {
   font-size: 40px;
-  color:#140ded;
-  background: #6fd5f7;
-  box-sizing: border-box;
-  padding: 10px 10px 10px 10px;
-  margin: 30px 100px 30px 800px;
+  color:#f6fcf7;
+  background: #278e18;
+  padding: 20px 30px 20px 30px;
 }
 
-/* ABOUT ME STYLES START */
-.section-title div p {
-  display: inline-block;
-  padding: 0 100px 20px 100px;
-  border-bottom: 3px solid;
-  margin-bottom: 35px;
-}
-
-.bio { 
-  text-align: center;
-  background: #d2e1f5;
-  
-}
-
-.bio div {
-  margin-bottom: 80px;
-}
-
-.bio img {
-  width: 17%;
-  padding: 10px 10px 20px 50px;
-  float:left
-} 
-
-.bio h2 {
-  color: #1d0551;
-  font-size: 36px;
-  margin-top: 10px;
-  text-align: right;
-  padding-right: 1200px;
-  border-right: 3px solid #1d0551;
-  padding: 20px;
-  width: 500px;
-  position: absolute;
-  bottom: 120px;
-  right: 140px;
-}
-
-.bio article p {
-  color: #1d0551;
-  font-size: 23px;
-  position: relative;
-  margin: 30px 60px 30px 800px;
-  text-align: justify;
-}
-/* WHAT YOU DO STYLES END */
-
-.card {
-  flex: 1 0 0;
-  padding: 10px;
-  text-align: center;
-  border-style: solid;
-  border-width: 1px;
-}
-
-.card header {
-  padding: 20px;
-  background: #13293d;
-  color: #fff;
-}
-
-.card img {
-  width: 100%;
-  min-width: 400px;
-}
