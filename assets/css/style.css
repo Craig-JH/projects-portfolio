@@ -58,15 +58,38 @@ header a {
   background-size: cover;
   background-position: center;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end; 
   flex-wrap: wrap;
-  align-items: right;
+  padding-right: 7%;
+  
 }
 
 .catch-phrase h2 {
   font-size: 40px;
   color:#f6fcf7;
   background: #278e18;
-  padding: 20px 30px 20px 30px;
+  padding: 15px 30px 15px 30px;
 }
 
+.bio {
+  display: flex;
+
+}
+
+.bio-header h2 {
+  font-size: 32px;
+  border-right: 3px solid; 
+  color: #278e18;
+  padding: 10px 20px 10px 20px;
+  height: 55%;
+}
+
+.bio-about {
+  font-size: 18px ;
+  width: 75%;
+  text-align: auto;
+  margin: 10px 10px 30px 10px;
+  color:#000902;
+  font-size: 18px;
+  line-height: 1.2;
+}
