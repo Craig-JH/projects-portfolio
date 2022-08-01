@@ -29,6 +29,6 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 The following link will take you to the website:
 
-https://craig-jh.github.io/code-refactor/
+ https://craig-jh.github.io/projects-portfolio/
 
 © 2022 Horiseon Social Solution Services, Inc. All Rights Reserved.
